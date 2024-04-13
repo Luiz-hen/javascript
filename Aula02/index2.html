@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        nome = prompt('Digite o seu nome:');
+    </script>
+</head>
+<body>
+    <p>Olá, Sr(a).</p>
+    <p></p>
+    <p>Seja Bem Vindo</p>
+    <script>
+        /* pega a tag NOME que esta no primeiro Script para ser visualizado na tela
+        sempre o que vai entre os colchetes são pela ordem 0,1,2... ex: <p> 1 <p> 2
+        */
+        document.getElementsByTagName('p')[1].innerHTML=nome;
+            </script>
+</body>
+</html>

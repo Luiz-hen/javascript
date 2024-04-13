@@ -1,0 +1,1 @@
+corFundo = prompt('digite uma cor em hexadecimal.\n Não precisa da hashtag')
